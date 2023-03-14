@@ -1,7 +1,9 @@
 export default {
     data(){
         return{
-            mensaje: "hola mudo"
+            basico: "Apolo",
+            intemedio: "Artemis",
+            avanzado: "Sputnik"
         }
     }
 }
