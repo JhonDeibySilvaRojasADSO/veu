@@ -10,13 +10,11 @@
 </head>
 <body>
     <div id="app">
-        <label >zona franja: <strong>campus</strong></label>
-        <div>
-            <input type="radio" v-model="centinela" v-bind:value="true"> ver
-            <input type="radio" v-model="centinela" v-bind:value="false"> ocultar
-
-        </div>
-        <div v-show="centinela" class="info">los mejores programadores de colombia</div>
+        <input type="text" v-model="opcion">
+        <div v-if="opcion==`apolo`" v-html="mensaje"></div>
+        <div v-else-if="opcion==`artemis`" v-html="mensaje2"></div>
+        <div v-else-if="opcion==`sputnik`" v-html="mensaje3"></div>
+        <div v-else v-html="mensaje4" class="error"></div>
     </div>
 </body>
 </html>
