@@ -1,11 +1,16 @@
 export default {
     data(){
         return{
-          mensaje:"<em>apolo</em>",
-          mensaje2:"<mark>artemisa</mark",
-          mensaje3:"<u>sputnik</u>",
-          mensaje4:"NO CUMPLE LA CONDICION",
-          opcion:null
+          mensaje:`<em>jhon</em>`,
+            mensaje2:`<mark>hola</mark>`,
+            mensaje3:`<u>no se que poner</u>`,
+            mensaje4:`no cumple condicion`,
+            opcion:null,
+            cosa:[
+                "jhon",
+                "Hola",
+                "No se que poner",
+            ]
         }
     }
 }
