@@ -1,16 +1,14 @@
 export default {
     data(){
         return{
-          mensaje:`<em>jhon</em>`,
-            mensaje2:`<mark>hola</mark>`,
-            mensaje3:`<u>no se que poner</u>`,
-            mensaje4:`no cumple condicion`,
-            opcion:null,
-            cosa:[
-                "jhon",
-                "Hola",
-                "No se que poner",
-            ]
+          cosa:[
+            "uff",
+            "Hola",
+            "No se",
+
+        ],
+        imagen:"https://i.ytimg.com/vi/viszafbV3lg/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AH-DoACuAiKAgwIABABGGUgWCg9MA8=&rs=AOn4CLDTtFada9kefIl-99Lm-IKgyLzBAQ",
+        texto:"mondongo"
         }
     }
 }
